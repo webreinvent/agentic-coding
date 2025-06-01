@@ -1,6 +1,27 @@
 # agentic-coding
 Experiments with agentic coding
 
+# Install Python 3.10
+pyenv install 3.10.13
+
+# Install Python 3.11
+pyenv install 3.11.8
+
+# Install Python 3.12
+pyenv install 3.12.2
+
+
+# Set global Python version
+pyenv global 3.10.13
+
+# Set local Python version (per directory)
+pyenv local 3.11.8
+
+
+# If using pyenv
+poetry env use $(pyenv which python3.10)
+
+
 ## Environment Variables
 
 This project uses environment variables for configuration. To set up your environment:
